@@ -8,11 +8,15 @@
   </head>
 
   <body>
+    <!-- A container to hold all of the content except the navbar -->
+
     <div class="container">
+      <!-- A full width fixed container to hold navbar elements -->
 
       <div class="navbar">
-
+        <!-- A smaller container to right fix the nav to -->
         <div id="navContainer">
+          <!-- The links to other pages -->
           <div id="nav">
             <ul>
               <li><a href="index.html">About</a> |</li>
@@ -20,24 +24,28 @@
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
-        </div>
-        <h1 id="name">Craig Christensen</h1>
-      </div><br>
+        </div> <!--End of navContainer div -->
+        <!-- A colored box with developer's name offset from left to be in alignment with content -->
+        <div id="name">Craig Christensen</div>
+      </div> <!--End of navbar div -->
 
+      <!-- Contains the main content and sidebar boxes -->
       <div id="content">
+        <!-- Everything that changes from page to page happens in here -->
         <section id="mainContent">
-          <h1 id="sectionHeader">Portfolio</h1>
-
+          <h2>Portfolio</h2>
 
           <aside id="sideBar">
-            <h1 id="Connect">Connect with Me</h1>
+            <div id="Connect">Connect with Me</div>
             <hr>
             <a href="https://github.com/ruffcorn33" target="_blank"><img src="assets/images/GitHub-Mark.png" alt="GitHub" width="42" height="42" border="0"></a>
             <a href="https://linkedin.com/in/craig-christensen-818693135" target="_blank"><img src="assets/images/LinkedIn-Mark.png" alt="LinkedIn" width="42" height="42" border="0"></a>
             <a href="https://stackoverflow.com/users/8452434/craig-christensen" target="_blank"><img src="assets/images/StackOverflow.png" alt="Stack Overflow" width="42" height="42" border="0"></a>
           </aside>
-        </section>
-      </div>
+
+        </section> <!--End of mainContent section -->
+
+      </div> <!--End of content div -->
 
       <footer>
         &copy; Copyright 2017 Craig Christensen
