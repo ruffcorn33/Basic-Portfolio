@@ -91,9 +91,38 @@ h2 {
   padding: 20px;
 }
 
-#headshot {
-  float left;
-  margin-right: 30px;
+/*#headshot {*/
+#bio>img {
+  float: left;
+  margin: 20px 20px 5px 0;
+  border: solid 1px #777;
+}
+
+/*Adapted from https://codepen.io/wizly/pen/lfqFw*/
+.imgWrapper {
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  float:left;
+  position: relative;
+  margin: 15px 25px 10px 0;
+}
+
+.description {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+
+.description_content {
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
 }
 
 input[type=text], select, textarea {
